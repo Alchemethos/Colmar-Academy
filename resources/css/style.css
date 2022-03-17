@@ -1,0 +1,240 @@
+* {
+    font-size: 16px;
+    
+    
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+}
+
+.rightheader {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+
+.divider {
+    display: flex;
+    width: 1rem;
+    background-color: rgb(43, 233, 224);
+    height: 4rem; 
+}
+
+.icon {
+    padding-left: 1.5rem;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.blackword {
+    color: black;
+}
+
+.greyword {
+    color: grey;
+}
+
+
+/* Learn Section */
+
+.greybox {
+    display: flex;
+    background-color: rgba(128,128,128,60%);
+   
+}
+
+#banner {
+    max-width: 60%;
+    padding: 2rem 1.5rem;
+    
+}
+
+.learn {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    padding-right: 2.5rem;
+    padding-left: .25rem;
+    opacity: 60%;
+    align-content: space-evenly;
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+    
+    
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+}
+
+.start {
+    display: flex;
+    color: white;
+    justify-content: center;
+    background-color: black;
+    width: 90%;
+    height: 3rem;
+    align-items: center;
+}
+
+.here {
+    padding: .5rem 0;
+    font-size: 2rem;
+}
+
+/* Practice Section */
+
+.whitebox {
+    display: flex;
+    margin-left: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+#i_pic {
+    padding: 2rem 0;
+    max-width: 1104px;
+}
+
+.infoleft {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    
+}
+
+.greyvert {
+    width: 0.1rem;
+    background-color: grey;
+    margin-top: 0.25rem;
+    margin-left: 1.5rem;
+    opacity: 60%;
+}
+
+.infoleft h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.infoleft p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5rem;
+    width: 80%;
+}
+
+.inforight {
+    display: flex;
+    flex-direction: column;
+}
+
+.orientation {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.orientation img {
+    width: 35%;
+    height: auto;
+
+}
+
+.campus img {
+    width: 35%;
+    height: auto;
+
+}
+
+.lecture img {
+    width: 35%;
+    height: auto;
+
+}
+
+#o_pic {
+    
+    padding: 1rem;
+}
+
+.orientation h3 {
+    
+}
+
+.campus {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    
+    align-items: center;
+    font-size: 1.5rem;
+   
+
+}
+
+.lecture {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    
+    align-items: center;
+    font-size: 1.5rem;
+   
+
+}
+
+#campus_pic {
+    
+    padding: 1rem;
+
+}
+
+#lec_pic {
+    
+    padding: 1rem;
+
+}
+
+.text_wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 100%;
+
+}
+
+.text_wrapper,
+h3,
+p, 
+a {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5rem;
+    padding: 0.25rem 0;
+}
+
+a {
+    color: blue;
+}
+
+.text_wrapper,
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
