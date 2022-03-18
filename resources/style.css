@@ -1,0 +1,345 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.mobile {
+    display: none;
+}
+
+/* Typograghy */
+
+p, a {
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem; 
+}
+
+h4 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 2rem;  
+}
+
+h5 {
+    font-size: 1.5rem;
+    margin-top: 0rem;
+    margin-bottom: .5rem;
+}
+
+h6 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+/* Header */
+
+header {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar {
+    height: 4rem;
+    margin: 0rem 1.5rem;
+}
+.navbar .desktop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.desktop .icon {
+    display: flex;
+    height: 2rem;
+    align-items: center;
+}
+
+.rightheader {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+}
+
+.divider {
+    display: flex;
+    width: 1rem;
+    background-color: #4682B4;
+    height: 4rem; 
+}
+
+.icon {
+    width: auto;
+    height: 100%;
+}
+
+.blackword {
+    color: black;
+    font-size: 2rem;
+}
+
+.greyword {
+    font-size: 2rem;
+    color: #CACCCE;
+}
+
+/* Page Wrap (set a bulk container relative to the header instead of the first section) */
+
+.page_wrap {
+    position: relative;
+    top: 4rem;
+}
+
+/* First Section */
+
+.top_greybox {
+    background-color: #CACCCE;
+    padding: 2rem 0rem;
+}
+
+.top_content {
+    display: flex;
+}
+
+.top_left {
+    width: 60%;
+    margin: 0rem 1.5rem;
+}
+
+.top_left img {
+    width: 100%;
+    height: auto;
+}
+
+.top_right {
+    width: 40%;
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top_greybox .start_button {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: .5rem 0rem;
+    transition: opacity 250ms ease-in,
+    letter-spacing 250ms ease-out,
+    word-spacing 250ms ease-out,
+    background-color 250ms ease-in;
+    width: 80%;
+}
+
+.top_greybox .start_button:hover {
+    letter-spacing: 0.25rem;
+    word-spacing: 0.25rem;
+    background-color: #4682B4;   
+}
+
+.start_button a:hover{
+    letter-spacing: 1rem;
+}
+
+/* Keep Practicing */
+
+.practice_container {
+    background-color: white;
+    margin-bottom: .5rem;
+}
+
+.practice_content {
+    display: flex;
+}
+
+.left {
+    width: 60%;
+    margin: 0rem 1.5rem;
+}
+
+.info_main img {
+    width: 100%;
+    height: auto;
+}
+
+.middle_right {
+    display: flex;
+    align-items: center;
+    margin-bot: .5rem;
+}
+
+.middle_right:hover {
+    background-color: #CACCCE;
+}
+
+.left {
+    padding: 2rem 0rem;
+}
+.right {
+    border-left: .0625rem solid #CACCCE;
+    padding: 2rem 0rem;
+}
+
+.mid {
+    border-top: .1875rem double #CACCCE;
+    border-bottom: .1875rem double #CACCCE;
+}
+
+.practice_2 {
+    width: 40%;
+}
+
+.practice_2 .right {
+    display: flex;
+    flex-direction: column;
+}
+
+.midright_thumb {
+    width: 35%;
+    margin: 1rem;
+}
+
+.midright_thumb  img {
+    width: 100%;
+    height: auto;
+}
+
+.midright_text {
+    width: 65%;
+    margin: 1rem 0rem;
+}
+
+
+/* Start Learning */
+
+.learn_container {
+    padding: 2rem 4.5rem 0rem 4.5rem;
+    background-color: #CACCCE;
+}
+
+.learn_1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.learn_2 {
+    background-color: white;
+    margin-bottom: 2rem;
+    flex: 1 0 30%;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition: opacity 250ms ease-in,
+    background-color 250ms ease-in;
+}
+
+.learn_2 img {
+    width: 100%;
+    height: auto;
+}
+
+.learn_text {
+    margin: 1rem 1rem 1.5rem 1rem;
+}
+
+.midcol {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.courses {
+    margin-bottom: .5rem;
+}
+
+/* Thesis exhibit */
+
+.thesis_container {
+    margin: 2rem 0rem;
+}
+
+.thesis_content {
+    display: flex;
+}
+
+.thesis_1 {
+    width: 60%;
+    margin: 0rem 1.5rem;
+}
+
+.thesis_video video {
+    width: 100%;
+    height: auto;
+}
+
+.thesis_2 {
+    width: 40%;
+}
+
+.thesis_right {
+    display: flex;
+    align-items: center;
+}
+
+.thesis_right:hover {
+    background-color: #CACCCE;
+}
+
+.thesis_thumb {
+    width: 35%;
+    margin: 1rem;
+}
+
+.thesis_thumb img {
+    width: 100%;
+    height: auto;
+}
+
+.thesis_text {
+    width: 65%;
+    margin: 1rem 0rem;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem 1.5rem;
+    border-top: .0625rem solid #CACCCE;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    flex-grow: 1;
+}
+
+footer p {
+    padding-left: .1875rem;
+}
+
